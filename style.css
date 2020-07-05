@@ -1,6 +1,37 @@
-<style>
-#logo {
-    text-align: center;
+header {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
 }
+ul {
+    list-style-type: none;
+    margin: 0 50px;
+    padding: 0;
+}
+li {
+    float: right;
+}
+li a {
+    display: block;
+    padding: 8px;
+    background-color: white;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 07)
+}
+#apps {
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 2px;
+    box-sizing: border-box;
+    height: 30px;
+    width: 30px;
+    background-image: url('//ssl.gstatic.com/gb/images/i1_1967ca6a.png');
+    background-size: 528px 68px;
 
-</style>
+
+}
+#logo {
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    padding-top: 200px;
+}
