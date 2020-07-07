@@ -5,21 +5,35 @@
 </head>
 <body>
     <header>
-        <ul>
-            <li><a id="signin" href="#">Sign In</a></li>
-            <li><a id="apps" href="#"></a></li>
-            <li><a id="images" href="#">Images</a></li>
-            <li><a id="gmail" href="#">Gmail</a></li>
-        </ul>
-        
-        <ul>
-            <li><a id="about" href="#">About</a></li>
-            <li><a id="store" href="#">Store</a></li>
-        </ul>
-        
+        <div>
+            <ul>
+                <li id="left"><a id="about" href="#">About</a></li>
+                <li id="left"><a id="store" href="#">Store</a></li>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <li id="right"><a id="signin" href="#">Sign In</a></li>
+                <li id="right"><a id="apps" href="#"></a></li>
+                <li id="right"><a id="images" href="#">Images</a></li>
+                <li id="right"><a id="gmail" href="#">Gmail</a></li>
+            </ul>
+        </div>   
     </header>
-    <div>
-        <img id="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
-    </div>     
+    <div class="logo">
+        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" height="92px" width="292px">
+    </div>
+    <div class="box">
+        <img id="search-icon" src="google-search.png">
+        <div>
+            <input id="search" maxlength="2048" name="search" type="text" title="Search">
+        </div>
+        <img id="mic-icon" src="data:image/png;base64,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">
+    </div>
+    <div class="buttons">
+        <input id="search-button" value="Google Search" type="submit">
+        <input id="lucky-button" value="I'm Feeling Lucky" type="submit">
+    </div>    
+
 </body>    
 </html>
