@@ -7,9 +7,6 @@ ul {
     margin: 0 50px;
     padding: 0;
 }
-li {
-    float: right;
-}
 li a {
     display: block;
     padding: 8px;
@@ -18,7 +15,6 @@ li a {
     color: rgba(0, 0, 0, 07)
 }
 #apps {
-    display: inline-block;
     vertical-align: middle;
     border-radius: 2px;
     box-sizing: border-box;
@@ -26,8 +22,29 @@ li a {
     width: 30px;
     background-image: url('//ssl.gstatic.com/gb/images/i1_1967ca6a.png');
     background-size: 528px 68px;
-
-
+    float: right;
+}
+#signin {
+    border: 1px solid #4285f4;
+    border-radius: 2px;
+    font-weight: bold;
+    background: linear-gradient(#4387fd, #4683ea);
+    color: #fff;
+    line-height: 28px;
+    padding: 0 12px;
+    float: right;
+}
+#images {
+    float: right;
+}
+#gmail {
+    float: right;
+}
+#store {
+    float: left;
+}
+#about {
+    float: left;
 }
 #logo {
     display: block; 
